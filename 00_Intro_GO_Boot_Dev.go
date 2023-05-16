@@ -8,3 +8,13 @@
 
 // Since this program builds into an executable, we start using
 package main
+
+// Format function import
+import "fmt"
+
+// Every GO Program, starts with "main" function.
+// It takes no inputs and doesn't return anything.
+
+func main() {
+	fmt.Println("Starting Textio Server") // "Print Line" function
+}
