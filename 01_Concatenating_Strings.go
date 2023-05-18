@@ -1,0 +1,17 @@
+package main
+
+import "fmt"
+
+func main() {
+	var username string = "Cesar"
+
+	//var password int = 1234567890
+
+	// Concatenate won't happen with missmatched variable types, showing the error below
+	// "invalid operation: username + ":" + password (mismatched types string and int)"
+	// So it's needed to change the integer to string type first.
+	var password string = "1234567890"
+
+	// Concatenate
+	fmt.Println("Authorazation: Basic", username+":"+password)
+}

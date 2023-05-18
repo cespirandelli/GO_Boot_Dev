@@ -18,3 +18,9 @@ import "fmt"
 func main() {
 	fmt.Println("Starting Textio Server") // "Print Line" function
 }
+
+// Compilation is the act of transforming human code writing in binaries or "Machine Code"
+
+// GO enforces strong and static typing, meaning variables can only have a single type.
+// One of the biggest benefits of strong typing is that errors can be caught at "compile time".
+// Making it easier to catch bugs ahead of time, it's detected before the code even run.
