@@ -15,3 +15,7 @@ func main() {
 	// Concatenate
 	fmt.Println("Authorazation: Basic", username+":"+password)
 }
+
+// GO programs are easy on memory, they are fairly lightweight.
+// Each program includes a small amount of "extra code" that's included in the executable binary.
+// This extra code is called "GO Runtime", on of the purposes of it is to cleanup unused memory at runtime.
