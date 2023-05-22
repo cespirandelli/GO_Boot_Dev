@@ -13,3 +13,14 @@ func main() {
 
 	fmt.Println("Your account has existed for:", accountAgeInt, "years.")
 }
+
+// Which type should you use?
+// Stick to these "Default Types" below for most of your code:
+// bool
+// string
+// int
+// uint32
+// byte
+// rune
+// float64
+// complex128
